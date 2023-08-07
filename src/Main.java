@@ -8,7 +8,7 @@ public class Main {
 		task4();
 		task5();
 		task6();
-		task7();
+		task7();//
 	}
 	
 	public static void task1() {
