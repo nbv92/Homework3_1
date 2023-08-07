@@ -7,7 +7,7 @@ public class Main {
 		task5();
 		task6();
 		task7();
-		/home/alex/programms/skypro/Homework3_1task8();
+		task8();
 	}
 	
 	public static void task1() {
