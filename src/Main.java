@@ -110,17 +110,21 @@ public class Main {
 		System.out.println("Task 7");
 		//System.out.println("Please, enter age\n");
 		//Scanner in = new Scanner(System.in);
-		double mass[]= new double[10];
-		for(int i = 0; i < 10; i++) {
-		mass[i]= Math.random();
-		System.out.print(mass[i] + " ");
-		}
-		System.out.println(" ");
-		double max = mass[0];
-		for (int i = 0; i < 10; i++) {
-			if(max<mass[i]) {
-				max = mass[i];
+		int one = 1;
+		int two = 2;
+		int three = 3;
+		int max = 0;
+		if (one>two){
+			if (two>three){
+				max = two;
+			}else{
+				max = three;
 			}
+		}else{
+			if (one>three){
+				max = one;
+			}else{
+				max = three;//ohoho
 		}
 		System.out.println("Max number: "+ max);
 	}
