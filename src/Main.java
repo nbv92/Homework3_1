@@ -124,7 +124,7 @@ public class Main {
 			if (one>three){
 				max = one;
 			}else{
-				max = three;//ohoho
+				max = three;//ohohom;n
 		}
 		System.out.println("Max number: "+ max);
 	}
